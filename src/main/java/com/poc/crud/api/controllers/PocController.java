@@ -41,7 +41,7 @@ public class PocController {
 
 	@GetMapping("/")
 	public String home() {
-		return "Welcome to Spring Boot REST API !";
+		return "Welcome to Spring Boot REST API 2.0!";
 	}
 
 	//Method to get all the records
