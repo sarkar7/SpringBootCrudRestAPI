@@ -30,7 +30,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
@@ -44,12 +43,13 @@
 	</dependencies>
 
 	<build> 
-    <plugins> 
-      <plugin> 
-        <groupId>org.springframework.boot</groupId>  
-        <artifactId>spring-boot-maven-plugin</artifactId> 
-      </plugin> 
-    </plugins> 
+		<plugins>
+		  <plugin>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-maven-plugin</artifactId>
+		  </plugin>
+		</plugins>
+		<finalName>spring-boot-crud-api</finalName>
   </build> 
 
 </project>
