@@ -1,4 +1,4 @@
-package com.poc.crud.api.beans;
+package com.poc.crud.api.models;
 
 /**
  * @author Sourabh Sarkar

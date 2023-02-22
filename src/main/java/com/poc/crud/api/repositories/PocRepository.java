@@ -7,7 +7,7 @@ package com.poc.crud.api.repositories;
  */
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.poc.crud.api.beans.PocBean;
+import com.poc.crud.api.models.PocBean;
 
 public interface PocRepository extends JpaRepository<PocBean, Long> {
 

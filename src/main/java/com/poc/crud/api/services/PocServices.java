@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.poc.crud.api.beans.PocBean;
+import com.poc.crud.api.models.PocBean;
 import com.poc.crud.api.repositories.PocRepository;
 
 @Service
